@@ -1,6 +1,3 @@
-#include <iostream>
-#include <cstdio>
-#include <iomanip>
 #include <bits/stdc++.h>
 using namespace std;
 
