@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1649227620 source:c:\users\admin\university folders\icp\codes\lab 6 inlab task 2\main.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+

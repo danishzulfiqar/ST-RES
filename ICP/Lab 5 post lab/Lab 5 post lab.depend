@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1649150234 source:c:\users\admin\university folders\icp\codes\lab 5 post lab\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
