@@ -33,7 +33,7 @@ public:
     Complex mul(Complex &b)
     {
         cout << "Multiplication" << endl;
-        return Complex(real * b.real, imag * b.imag);
+        return Complex((real * b.real)-(b.imag*imag), (imag*b.real)+(real*b.imag));
     }
 };
 
