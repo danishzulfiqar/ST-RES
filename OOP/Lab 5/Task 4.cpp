@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 class Distance
 {
 private:
@@ -10,7 +13,7 @@ public:
     {
         S = id + M;
     }
-    
+
     void const get_distance()
     {
         cout << "Distance 1(constant)" << endl;
@@ -26,7 +29,7 @@ public:
 
 int main()
 {
-    Distance A1;
+    Distance  A1;
     Distance const A2;
     A1.get_distance();
     A1.add_distance(12);
