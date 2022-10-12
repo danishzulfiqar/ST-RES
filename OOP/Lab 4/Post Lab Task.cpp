@@ -91,7 +91,7 @@ void Distance::sub_dist(Distance d2, Distance d3)
 void Distance::mul_dist(Distance d2, Distance d3)
 {
     inches = d2.inches * d3.inches;
-    feet = feet/12;
+    feet = 0;
     while (inches >= 12.0)
     {
         inches -= 12.0;
