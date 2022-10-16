@@ -1,0 +1,32 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+class leverage
+{
+private:
+    int crowbar;
+
+public:
+    leverage() : crowbar(0) {}
+
+    void pry()
+    {
+    }
+
+    int getcrow()
+    {
+        return crowbar;
+    }
+
+};
+
+int main()
+{
+    leverage lever1;
+
+    lever1.pry(); 
+
+    cout << lever1.getcrow() << endl;
+
+    return 0;
+}
