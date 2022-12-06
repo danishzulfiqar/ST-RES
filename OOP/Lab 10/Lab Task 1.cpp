@@ -9,6 +9,7 @@ public:
         cout << "base\n";
     }
 };
+
 class DerivedClassA : public base
 {
 public:
@@ -17,6 +18,7 @@ public:
         cout << "Derived Class A" << endl;
     }
 };
+
 class DerivedClassB : public base
 {
 public:
@@ -25,6 +27,7 @@ public:
         cout << "Derived Class B" << endl;
     }
 };
+
 int main()
 {
     base *ptrBase;

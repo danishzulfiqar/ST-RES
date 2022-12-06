@@ -1,5 +1,4 @@
-#include <iostream>
-#include <string>
+#include <bits/stdc++.h>
 using namespace std;
 class Employee
 {
@@ -7,6 +6,7 @@ public:
     virtual void salary() = 0;
     virtual void display() = 0;
 };
+
 class salariedemployee : public Employee
 {
 private:
@@ -28,7 +28,7 @@ public:
     {
         cout << "Employee Number is " << emp_num << endl;
         cout << "Employee Name is " << name << endl;
-        cout << "Employee Salary is " << sal << endl;
+        cout << "Employee Salary is " << fixed << setprecision(2) << sal << endl;
     }
 };
 class hourlyemployee : public Employee
@@ -52,7 +52,7 @@ public:
     void display()
     {
         result = hours * rate;
-        cout << name << "'s Hourly salary is " << result << endl;
+        cout << name << "'s Hourly salary is " << fixed << setprecision(2) << result << endl;
     }
 };
 class commisonedemployee : public Employee
@@ -76,7 +76,7 @@ public:
     void display()
     {
         result = overtime * 2500;
-        cout << name << "'s salary is " << result + sal << endl;
+        cout << name << "'s salary is "<< fixed << setprecision(2)<< result + sal << endl;
     }
 };
 int main()
@@ -97,6 +97,5 @@ int main()
     e[2] = &c;
     e[2]->salary();
     e[2]->display();
-    system("pause");
     return 0;
 }
